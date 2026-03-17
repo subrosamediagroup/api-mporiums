@@ -22,7 +22,7 @@ const middlewares = jsonServer.defaults();
 // ── CORS — allow your React app to call this API ────────────
 // Update ALLOWED_ORIGIN when you deploy to Vercel
 const ALLOWED_ORIGINS = [
-  "http://localhost:5173",   // Vite local dev
+  "http://localhost:5175",   // Vite local dev
   "http://localhost:3000",   // alternative local port
   "https://mporiums.vercel.app", // your deployed front-end
 ];
