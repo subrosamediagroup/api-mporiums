@@ -24,7 +24,8 @@ const middlewares = jsonServer.defaults();
 const ALLOWED_ORIGINS = [
   "http://localhost:5175",   // Vite local dev
   "http://localhost:3000",   // alternative local port
-  "https://mporiums.vercel.app", // your deployed front-end
+  "https://mporiums-updated.vercel.app", // your deployed front-end
+
 ];
 
 server.use((req, res, next) => {
